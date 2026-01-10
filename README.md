@@ -5,7 +5,8 @@ Predict the maximum temperature the next day in Abomey-Calavi (Latitude ~ 6.44, 
 Being able to predict the max temperature of the next day using a set of data.
 For this pretext project we'll be wor
 
-## Data
+## Data sources
+- Open-Meteo
 
 ## Methodology
 

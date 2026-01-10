@@ -1,0 +1,29 @@
+[project]
+name = "meteo-calavi"
+version = "0.1.0"
+description = "Predict the maximum temperature the next day in Abomey-Calavi"
+authors = [
+    {name = "Lemec Ahouandjinou",email = "dev.semiton@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "notebook (>=7.5.1,<8.0.0)",
+    "jupyterlab (>=4.5.1,<5.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.4.1,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "black[jupyter] (>=25.12.0,<26.0.0)",
+    "openmeteo-requests (>=1.7.4,<2.0.0)",
+    "requests-cache (>=1.2.1,<2.0.0)",
+    "retry-requests (>=2.0.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
