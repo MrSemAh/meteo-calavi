@@ -13,3 +13,7 @@ For this pretext project we'll be wor
 ## Results
 
 ## Limits
+
+## Notes
+- We defined a data cleaning method in order to be consistent with the ML pipeline
+- Daily aggregates provided by Open-Meteo were deliberately recalculated in order to control the feature engineering pipeline
